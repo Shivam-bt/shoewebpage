@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: #870000; 
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  
+    background: linear-gradient(to right, #190A05, #870000); 
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+#offer{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.navbar{
+    background-color: #190A05;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#men{
+    padding: 15px;
+    font-size: 15px;
+}
+
+#women{
+    padding: 15px;
+}
+
+#kids{
+    padding: 15px;
+}
+
+#sports{
+    padding: 15px;
+}
+
+#brands{
+    padding: 15px;
+}
+
+#collections{
+    padding: 15px;
+}
+
+#img{
+    padding: 10px;
+    height: 15px;
+}
+
+.main{
+    background-image: url('shoes-2.jpg');
+    background-size: cover;
+    height: 350px;
+}
+
+.content{
+    background: rgba(0, 0, 0, 0.4);
+
+    width: 53%;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    padding: 20px;
+}
+
+#h1-c{
+    color: aliceblue;
+    opacity: none;
+}
+#p1-c{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.product{
+    width: 100%;
+    height: 300px;
+    background-color:  #d7dde8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product .trending{
+    height: 220px;
+    background-color: rgba(160, 160, 160, 0.822);
+    width: 80%;
+}
+
+.cont{
+    display: flex;
+}
+
+.card {
+    width: 140px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: gray;
+    overflow: hidden;
+    height: 160px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.card-image {
+    width: 150px;
+    height: 130px;
+}
+
+.card-content {
+    padding: 5px;
+}
+
+.card-content p {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
